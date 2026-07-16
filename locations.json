@@ -1,0 +1,436 @@
+{
+  "locations": [
+    {
+      "id": "TJ",
+      "name": "Tijuana",
+      "lat": 32.5149,
+      "lon": -117.0382,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "MXL",
+      "name": "Mexicali",
+      "lat": 32.6245,
+      "lon": -115.4523,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "HMO",
+      "name": "Hermosillo",
+      "lat": 29.0729,
+      "lon": -110.9559,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "LAP",
+      "name": "La Paz",
+      "lat": 24.1426,
+      "lon": -110.3108,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "SJD",
+      "name": "Los Cabos",
+      "lat": 22.8905,
+      "lon": -109.9167,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CJS",
+      "name": "Ciudad Juárez",
+      "lat": 31.7333,
+      "lon": -106.4833,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CHIH",
+      "name": "Chihuahua",
+      "lat": 28.6329,
+      "lon": -106.0691,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CLN",
+      "name": "Culiacán",
+      "lat": 24.8089,
+      "lon": -107.3941,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "DGO",
+      "name": "Durango",
+      "lat": 24.0277,
+      "lon": -104.6531,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "COAH",
+      "name": "Saltillo",
+      "lat": 25.4213,
+      "lon": -100.973,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "MTY",
+      "name": "Monterrey",
+      "lat": 25.6866,
+      "lon": -100.3161,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TMP",
+      "name": "Tampico",
+      "lat": 22.2159,
+      "lon": -97.8594,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "ZAC",
+      "name": "Zacatecas",
+      "lat": 22.7709,
+      "lon": -102.5832,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "SLP",
+      "name": "San Luis Potosí",
+      "lat": 22.1565,
+      "lon": -100.9855,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "AGS",
+      "name": "Aguascalientes",
+      "lat": 21.8853,
+      "lon": -102.2916,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TNY",
+      "name": "Tepic",
+      "lat": 21.5033,
+      "lon": -104.8947,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "QRO",
+      "name": "Querétaro",
+      "lat": 20.5881,
+      "lon": -100.3899,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "GDL",
+      "name": "Guadalajara",
+      "lat": 20.6597,
+      "lon": -103.3496,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "GTO",
+      "name": "Guanajuato",
+      "lat": 21.019,
+      "lon": -101.2574,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "MLM",
+      "name": "Morelia",
+      "lat": 19.706,
+      "lon": -101.195,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "COL",
+      "name": "Colima",
+      "lat": 19.2452,
+      "lon": -103.7241,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TOL",
+      "name": "Toluca",
+      "lat": 19.2826,
+      "lon": -99.6557,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "ACP",
+      "name": "Acapulco",
+      "lat": 16.8531,
+      "lon": -99.8237,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "PACH",
+      "name": "Pachuca",
+      "lat": 20.1011,
+      "lon": -98.7591,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TLA",
+      "name": "Tlaxcala",
+      "lat": 19.3139,
+      "lon": -98.2404,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CDMX",
+      "name": "Ciudad de México",
+      "lat": 19.4326,
+      "lon": -99.1332,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "PUE",
+      "name": "Puebla",
+      "lat": 19.0414,
+      "lon": -98.2063,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "VER",
+      "name": "Veracruz",
+      "lat": 19.1738,
+      "lon": -96.1342,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CVA",
+      "name": "Cuernavaca",
+      "lat": 18.9242,
+      "lon": -99.2216,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "OAX",
+      "name": "Oaxaca",
+      "lat": 17.0527,
+      "lon": -96.7216,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TAP",
+      "name": "Tapachula",
+      "lat": 14.9046,
+      "lon": -92.2677,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "VSA",
+      "name": "Villahermosa",
+      "lat": 17.9869,
+      "lon": -92.9303,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CAMP",
+      "name": "Campeche",
+      "lat": 19.8301,
+      "lon": -90.5349,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "TGZ",
+      "name": "Tuxtla Gutiérrez",
+      "lat": 16.7569,
+      "lon": -93.1292,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CHT",
+      "name": "Chetumal",
+      "lat": 18.5011,
+      "lon": -88.3024,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CZM",
+      "name": "Cozumel",
+      "lat": 20.4204,
+      "lon": -86.9284,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "CUN",
+      "name": "Cancún",
+      "lat": 21.1619,
+      "lon": -86.8515,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "YUC",
+      "name": "Mérida",
+      "lat": 20.9674,
+      "lon": -89.6236,
+      "kind": "city",
+      "window_radius_pixels": 2
+    },
+    {
+      "id": "AOB",
+      "name": "Álvaro Obregón",
+      "lat": 19.3605,
+      "lon": -99.2267,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "AZC",
+      "name": "Azcapotzalco",
+      "lat": 19.4869,
+      "lon": -99.1859,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "BJU",
+      "name": "Benito Juárez",
+      "lat": 19.3804,
+      "lon": -99.1619,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "COY",
+      "name": "Coyoacán",
+      "lat": 19.3467,
+      "lon": -99.1617,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "CUJ",
+      "name": "Cuajimalpa",
+      "lat": 19.3574,
+      "lon": -99.299,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "CUA",
+      "name": "Cuauhtémoc",
+      "lat": 19.4416,
+      "lon": -99.1514,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "GAM",
+      "name": "Gustavo A. Madero",
+      "lat": 19.4847,
+      "lon": -99.112,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "IZC",
+      "name": "Iztacalco",
+      "lat": 19.3953,
+      "lon": -99.0978,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "IZP",
+      "name": "Iztapalapa",
+      "lat": 19.3574,
+      "lon": -99.093,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "MCO",
+      "name": "Magdalena Contreras",
+      "lat": 19.3041,
+      "lon": -99.2422,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "MHI",
+      "name": "Miguel Hidalgo",
+      "lat": 19.4327,
+      "lon": -99.19,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "MIL",
+      "name": "Milpa Alta",
+      "lat": 19.1917,
+      "lon": -99.0236,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "TLH",
+      "name": "Tláhuac",
+      "lat": 19.2869,
+      "lon": -99.0059,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "TLP",
+      "name": "Tlalpan",
+      "lat": 19.2879,
+      "lon": -99.1677,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "VCA",
+      "name": "Venustiano Carranza",
+      "lat": 19.43,
+      "lon": -99.0992,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    },
+    {
+      "id": "XOC",
+      "name": "Xochimilco",
+      "lat": 19.257,
+      "lon": -99.104,
+      "kind": "alcaldia",
+      "window_radius_pixels": 1
+    }
+  ]
+}
