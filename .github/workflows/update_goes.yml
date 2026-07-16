@@ -1,0 +1,55 @@
+name: Actualizar satélite NOAA GOES
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cada 10 minutos, evitando el minuto 00 para reducir retrasos por carga.
+    - cron: "3,13,23,33,43,53 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nmas-goes-feed
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar lector científico
+        run: pip install -r requirements.txt
+
+      - name: Procesar GOES-19 y GOES-18
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python goes_feeder.py --locations locations.json --output satellite.json
+
+      - name: Publicar JSON liviano en rama data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          rm -rf publish
+          mkdir publish
+          cp satellite.json publish/satellite.json
+          cd publish
+          git init
+          git checkout -b data
+          git config user.name "nmas-goes-bot"
+          git config user.email "nmas-goes-bot@users.noreply.github.com"
+          git add satellite.json
+          git commit -m "Actualización GOES $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin data
